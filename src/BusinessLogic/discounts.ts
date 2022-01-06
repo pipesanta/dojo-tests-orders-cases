@@ -1,5 +1,5 @@
 
-import { Order } from '../interfaces'; 
+import { Order } from '../Interfaces/Order'; 
 
 // Por la compra de dos productos o más, que cada uno supere 
 // el valor de 100.000, se otorgará un 30% de descuento en el producto con el menor valor.
