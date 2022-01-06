@@ -87,6 +87,7 @@ const orderMockTwoProductsGreaterThan100k: Order = {
         city: "Medellin"
     }
  }
+ 
 
 export {
     orderMockOneProduct,
