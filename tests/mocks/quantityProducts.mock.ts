@@ -46,8 +46,25 @@ const orderMockLessThanElevenUnitsOfSameProduct: Order = {
 		city: "Medellin"
 	}
 }
-
+const orderMocWithOneProduct: Order = {
+	orderId: "A92B-01",
+	products: [{
+		productId: 3,
+		categoryId: 6,
+		unitPrice: 70000,
+		quantity: 1
+	},
+	
+	],
+	client: {
+		email: "alguien@gmail.com",
+		phone: "123456789",
+		address: "Calle 20 # 100-15",
+		city: "Medellin"
+	}
+}
 export {
 	orderMockMoreThanTenUnitsOfSameProduct,
-	orderMockLessThanElevenUnitsOfSameProduct
+	orderMockLessThanElevenUnitsOfSameProduct,
+	orderMocWithOneProduct
 }
