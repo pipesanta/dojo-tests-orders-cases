@@ -8,12 +8,11 @@ version: 2.1
 
 jobs:
   build:
-    circleci_ip_ranges: true # opts the job into the IP ranges feature
     docker:
-      - image: cimg/node:12.22.9
+      - image: cimg/node:17.4.0
     steps:
-      - run: npm run coverage
-
+      - checkout
+      - run: node --version
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
