@@ -14,7 +14,7 @@ describe('TESTS PAYMENT METHODS', () => {
 
     it('# With CREDIT_CARD', () => {
         let actualResult: number = calculateOrderCostAfterApplyDiscounts(orderMockPaidWithCreditCard);
-        expect(actualResult).to.equal(25000);
+        expect(actualResult).to.equal(25);
     });
 
     it('# With GIFT_CARD', () => {
