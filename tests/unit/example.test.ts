@@ -9,6 +9,7 @@ import {
 
 import { expect } from 'chai';
 
+
 // ESTE ES SOLO UN EJEMPLO YA QUE ME FALTAN PONER MÁS CASOS POSIBLES, POR EJEMPLO, ENVIAR VARIOS PRODUCTOS QUE SUPEREN EN TOTAL LOS 100000
 describe('Discount cheapest product', () => { // the tests container
     it('Just one product and purchase is greater than 100000', () => { // the single test
